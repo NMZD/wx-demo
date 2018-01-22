@@ -4,9 +4,27 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTitleText": "知乎日报",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "green",
+    "backgroundColor": "#eee",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/img/home_icon.png",
+      "selectedIconPath": "assets/img/home_icon_s.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "assets/img/logs_icon.png",
+      "selectedIconPath": "assets/img/logs_icon_s.png"
+    }]
+  },
+  "debug": true
 }

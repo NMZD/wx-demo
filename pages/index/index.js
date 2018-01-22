@@ -50,5 +50,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  changeText: function(){
+    this.data.motto == "Hello World" ? this.setData({ motto: '我的小程序' }) : this.setData({ motto: 'Hello World' });
   }
 })
