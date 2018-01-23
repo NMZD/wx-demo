@@ -1,0 +1,64 @@
+.demo-title {
+  display: block;
+  margin: 10px auto 0;
+  text-align: center;
+}
+.demo-title .demo-title-label {
+  color: #bbb;
+  border-bottom: 1px solid #ddd;
+}
+.link {
+  font-size: 16px;
+  line-height: 1em;
+}
+.flex-wrp,
+.scroll-view-box {
+  margin-top: 10px;
+}
+.flex-wrp {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.flex-wrp.hover {
+  border: 2px solid yellow;
+}
+.flex-item {
+  flex: 1;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-blue {
+  background-color: blue;
+}
+
+.scroll-view-box {
+  height: 200px;
+}
+.scroll-view-item {
+  height: 200px;
+}
+.btn-area button {
+  margin: 10px 10px 0;
+  display: block;
+}
+.demo-section {
+  margin-top: 10px;
+}
+.demo-section navigator {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.slide-image {
+  width: 100%;
+}

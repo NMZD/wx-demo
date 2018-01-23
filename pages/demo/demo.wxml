@@ -1,0 +1,15 @@
+<!-- demo.wxml  -->
+<view class='demo-section'>
+  <text>视图容器</text>
+  <navigator class='link' url='view/view'>view</navigator>
+  <navigator class='link' url='swiper/swiper'>swiper</navigator>
+  <navigator class='link' url='scroll-view/scroll-view'>scroll-view</navigator>
+  <navigator class='link' url='movable-view/movable-view'>movable-view</navigator>
+  <navigator class='link' url='cover-view/cover-view'>cover-view</navigator>
+</view>
+<view class='demo-section'>
+  <text>基础内容</text>
+  <navigator class='link' url='icon/icon'>icon</navigator>
+</view>
+
+

@@ -1,0 +1,13 @@
+<view class='demo-title'>
+  <text class='demo-title-label'>scroll-view</text>
+</view>
+<scroll-view class='scroll-view-box' scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{scrollTop}}" scroll-into-view="{{toView}}" enable-back-to-top="true">
+  <view id='green' class='scroll-view-item bg-green'></view>
+  <view id='red' class='scroll-view-item bg-red'></view>
+  <view id='yellow' class='scroll-view-item bg-yellow'></view>
+  <view id='blue' class='scroll-view-item bg-blue'></view>
+</scroll-view>
+<view class='btn-area'>
+  <button size='mini' bindtap="tap">click me to scroll into view</button>
+  <button size='mini' bindtap="tapMove">click me to scroll</button>
+</view>

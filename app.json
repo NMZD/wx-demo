@@ -1,12 +1,19 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/demo/view/view",
+    "pages/demo/scroll-view/scroll-view",
+    "pages/demo/swiper/swiper",
+    "pages/demo/movable-view/movable-view",
+    "pages/demo/cover-view/cover-view",
+    "pages/demo/icon/icon"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "知乎日报",
+    "navigationBarTitleText": "Hello World",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh": true
   },
@@ -19,6 +26,12 @@
       "text": "首页",
       "iconPath": "assets/img/home_icon.png",
       "selectedIconPath": "assets/img/home_icon_s.png"
+    },
+    {
+      "pagePath": "pages/demo/demo",
+      "text": "演示",
+      "iconPath": "assets/img/logs_icon.png",
+      "selectedIconPath": "assets/img/logs_icon_s.png"
     },{
       "pagePath": "pages/logs/logs",
       "text": "日志",
