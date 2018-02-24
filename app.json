@@ -3,12 +3,14 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/demo/demo",
+    "pages/api/api",
     "pages/demo/view/view",
     "pages/demo/scroll-view/scroll-view",
     "pages/demo/swiper/swiper",
     "pages/demo/movable-view/movable-view",
     "pages/demo/cover-view/cover-view",
-    "pages/demo/icon/icon"
+    "pages/demo/base/base",
+    "pages/demo/from/from"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -30,6 +32,11 @@
     {
       "pagePath": "pages/demo/demo",
       "text": "演示",
+      "iconPath": "assets/img/logs_icon.png",
+      "selectedIconPath": "assets/img/logs_icon_s.png"
+    },{
+      "pagePath": "pages/api/api",
+      "text": "API",
       "iconPath": "assets/img/logs_icon.png",
       "selectedIconPath": "assets/img/logs_icon_s.png"
     },{

@@ -1,0 +1,22 @@
+<!--pages/demo/from/from.wxml-->
+<view class="demo-title">
+  <text class='demo-title-label'>Button</text>
+</view>
+<view class='button-group'>
+  <button type='default' size='{{btnDefaultSize}}' loading='{{btnLoading}}' plain="{{btnPlain}}" disabled='{{btnDisabled}}' bindtap='btnDefault' hover-class='other-button-hover'>default</button>
+  <button type='primary' size='{{btnPrimarySize}}' loading='{{btnLoading}}' plain="{{btnPlain}}" disabled='{{btnDisabled}}' bindtap='btnPrimary' hover-class='other-button-hover'>primary</button>
+  <button type='warn' size='{{btnWarnSize}}' loading='{{btnLoading}}' plain="{{btnPlain}}" disabled='{{btnDisabled}}' bindtap='btnWarn' hover-class='other-button-hover'>warn</button>
+  <button bindtap='setDisabled'>点击设置以上按钮disabled属性</button>
+  <button bindtap='setPlain'>点击设置以上按钮plain属性</button>
+  <button bindtap='setLoading'>点击设置以上按钮loading属性</button>
+  <button open-type='contact'>进入客服会话</button>
+</view>
+
+<view class="demo-title">
+  <text class='demo-title-label'>Checkbox</text>
+</view>
+<checkbox-group bindchange="checkboxChange">
+  <label wx:for='{{checkboxItems}}'>
+    <checkbox value='{{item.name}}' checked='{{item.checked}}' disabled='{{item.disabled}}' color='{{item.color}}'>{{item.value}}</checkbox>
+  </label>
+</checkbox-group>

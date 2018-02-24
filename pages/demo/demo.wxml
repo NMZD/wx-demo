@@ -9,7 +9,11 @@
 </view>
 <view class='demo-section'>
   <text>基础内容</text>
-  <navigator class='link' url='icon/icon'>icon</navigator>
+  <navigator class='link' url='base/base'>基础内容</navigator>
+</view>
+<view class='demo-section'>
+  <text>表单组件</text>
+  <navigator class='link' url='from/from'>表单组件</navigator>
 </view>
 
 

@@ -62,3 +62,12 @@
 .slide-image {
   width: 100%;
 }
+.button-hover {
+  background-color: red;
+}
+.other-button-hover {
+  background-color: blue;
+}
+.button-group button {
+  margin-bottom: 10px;
+}

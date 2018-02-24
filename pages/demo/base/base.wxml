@@ -14,3 +14,5 @@
     <icon size='40' color='{{item}}' type='success'></icon>
   </block>
 </view>
+
+<progress percent='60' show-info stroke-width='10' activeColor='blue' backgroundColor='red' active></progress>
