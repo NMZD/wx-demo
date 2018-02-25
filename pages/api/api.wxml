@@ -1,2 +1,7 @@
 <!--pages/api/api.wxml-->
-<text>pages/api/api.wxml</text>
+<view class='demo-section'>
+  <text class='tac fs24'>媒体</text>
+  <button type='default' bindtap='selectImg'>选择图片</button>
+  <image mode='aspectFit' src='{{tempFilePaths}}'></image>
+</view>
+

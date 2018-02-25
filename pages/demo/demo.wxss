@@ -71,3 +71,10 @@
 .button-group button {
   margin-bottom: 10px;
 }
+.tac {
+  display: block;
+  text-align: center;
+}
+.fs24 {
+  font-size: 24px;
+}

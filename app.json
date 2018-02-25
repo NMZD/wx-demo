@@ -20,8 +20,8 @@
     "enablePullDownRefresh": true
   },
   "tabBar": {
-    "color": "black",
-    "selectedColor": "green",
+    "color": "#000000",
+    "selectedColor": "#00ff00",
     "backgroundColor": "#eee",
     "list": [{
       "pagePath": "pages/index/index",

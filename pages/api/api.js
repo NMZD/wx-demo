@@ -5,14 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    tempFilePaths: ''
   },
-
+  selectImg: function(evet){
+    var _self = this;
+    wx.chooseImage({
+      count: 2,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success: function(res) {
+        console.log(11);
+        _self.setData({
+          tempFilePaths: res.tempFilePaths
+        })
+        
+      },
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    
   },
 
   /**
